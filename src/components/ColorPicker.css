@@ -1,0 +1,55 @@
+.box {
+  text-align: center;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background-color 2s ease;
+}
+
+
+
+.buttons_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+button {
+    border-radius: 40px;
+}
+
+.btn-green {
+    background-color: green;
+}
+
+.btn-green:hover {
+    background-color: rgb(118, 226, 118);
+}
+
+.btn-red {
+    background-color: red;
+}
+
+.btn-red:hover {
+    background-color: rgb(251, 147, 147);
+}
+
+.btn-blue {
+    background-color: blue;
+}
+
+.btn-blue:hover {
+    background-color: rgb(107, 107, 246);
+}
